@@ -12,18 +12,18 @@ const AboutMe = () => {
             About Me
           </span>
           <span className="font-raleway text-[1.2vw]">
-            I'm Akshit, from Mumbai, IN. I have about 3 years of experience in
+            {`I'm Akshit, from Mumbai, IN. I have about 3 years of experience in
             web development, during which I've been committed to crafting
-            functional and visually appealing websites.
+            functional and visually appealing websites.`}
             <br />
             <br />
-            Beyond development, I've immersed myself in the art of design, with
-            a focus on web design, logo creation and brand identity development.
+            {`Beyond development, I've immersed myself in the art of design, with
+            a focus on web design, logo creation and brand identity development.`}
             <br />
             <br />
-            If you're in search of a website to elevate your personal brand or
+            {`If you're in search of a website to elevate your personal brand or
             serve any other purpose, I'm here to assist you. Let's collaborate
-            to turn concepts into impactful digital experiences.
+            to turn concepts into impactful digital experiences.`}
           </span>
           <div className="w-1/3 py-1 text-center transition-all duration-300 bg-red-600 border border-red-500 rounded-full cursor-pointer font-poppins hover:bg-black">
             More About Me
