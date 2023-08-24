@@ -15,7 +15,9 @@ module.exports = {
       fontFamily: {
         poppins: ['var(--font-poppins)'],
         abril: ['var(--font-abril)'],
-        // mono: ['var(--font-roboto-mono)'],
+        alegreya: ['var(--font-alegreya)'],
+        oswald: ['var(--font-oswald)'],
+        tilt: ['var(--font-tilt)'],
       },
     },
   },

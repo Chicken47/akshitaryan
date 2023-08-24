@@ -8,10 +8,10 @@ const AboutMe = () => {
           id="left-about"
           className="flex flex-col justify-center w-1/2 h-full pl-[10vw] space-y-10"
         >
-          <span className="font-poppins text-[5vw] font-bold text-red-600">
+          <span className="font-abril text-[4vw] font-bold text-red-600">
             About Me
           </span>
-          <span className="font-raleway text-[1.2vw]">
+          <span className="font-alegreya text-[1.2vw]">
             {`I'm Akshit, from Mumbai, IN. I have about 3 years of experience in
             web development, during which I've been committed to crafting
             functional and visually appealing websites.`}

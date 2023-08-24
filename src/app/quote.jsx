@@ -31,13 +31,13 @@ const Quote = () => {
             ? {
                 backgroundImage: "url('https://i.gifer.com/ZWdx.gif')",
               }
-            : { backgroundImage: "url('https://i.gifer.com/IrM.gif')" }
+            : { backgroundImage: "url('https://i.gifer.com/Cal.gif')" }
         }
       >
         <div className="font-bold text-[18px] md:text-[3vw] text-center font-poppins">
           {quote?.content}
         </div>
-        <div className="font-bold text-red-500 text-[2vw]">
+        <div className="font-bold text-red-500 text-[2vw] font-abril">
           - {quote?.author}
         </div>
       </div>

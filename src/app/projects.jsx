@@ -11,7 +11,7 @@ const HomeProjects = () => {
         }}
         className="flex flex-col w-full min-h-screen text-white max-w-[1366px] py-10 bg-center bg-no-repeat bg-cover"
       >
-        <span className="w-full text-center font-bold text-red-600 mt-10 font-poppins text-[5vw]">
+        <span className="w-full text-center font-bold text-red-600 mt-10 font-abril text-[4vw]">
           Accomplished Projects
         </span>
         <div className="flex items-center justify-center w-full mt-16 space-x-5">
@@ -19,19 +19,19 @@ const HomeProjects = () => {
             id="project-desc"
             className="flex flex-col justify-center w-4/12 h-full p-5 bg-[#39393954] rounded-2xl"
           >
-            <span className="font-poppins text-[2vw] text-red-500 font-bold">
+            <span className="font-abril text-[2vw] text-red-500 font-bold">
               Portfolio Website
             </span>
             <span className="py-2 font-extrabold text-gray-400">
               July 2023 - August 2023
             </span>
-            <span>
+            <span className="font-alegreya">
               I built a custom portfolio website that showcases my work and
               experience in web design and development. The website is easy to
               navigate and includes a contact form so that potential clients can
               reach me easily.
             </span>
-            <span className="font-poppins text-[2vw] text-red-500 mt-5">
+            <span className="font-abril text-[2vw] text-red-500 mt-5">
               Tech Stack Used
             </span>
             <div className="flex flex-wrap items-center w-full mt-2 justify-evenly">
@@ -98,19 +98,19 @@ const HomeProjects = () => {
             id="project-desc"
             className="flex flex-col justify-center w-4/12 h-full p-5 ml-5 bg-[#39393954] rounded-2xl"
           >
-            <span className="font-poppins text-[2vw] text-red-500 font-bold">
+            <span className="font-abril text-[2vw] text-red-500 font-bold">
               Open for Policy & Impact
             </span>
             <span className="py-2 font-extrabold text-gray-400">
               May 2023 - June 2023
             </span>
-            <span>
+            <span className="font-alegreya">
               Website for a new consulting firm. Conceptualized UI/UX and
               developed it. Fully responsive for all screens. Added animations
               for better user experience and retention. Employed external CMS
               for content.
             </span>
-            <span className="font-poppins text-[2vw] text-red-500 mt-5">
+            <span className="font-abril text-[2vw] text-red-500 mt-5">
               Tech Stack Used
             </span>
             <div className="flex flex-wrap items-center w-full mt-2 justify-evenly">
