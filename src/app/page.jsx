@@ -3,12 +3,14 @@ import Contact from "./contact";
 import HomePage from "./home";
 import NasaPotd from "./photoNasa";
 import HomeProjects from "./projects";
+import Quote from "./quote";
 
 export default function Home() {
   return (
     <main className="flex flex-col w-full min-h-screen text-white bg-black">
       <HomePage />
       <AboutMe />
+      <Quote />
       <HomeProjects />
       <NasaPotd />
       <Contact />

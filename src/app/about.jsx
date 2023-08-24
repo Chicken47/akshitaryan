@@ -75,11 +75,7 @@ const AboutMe = () => {
           id="right-about"
           className="flex justify-center w-1/2 h-full bg-center bg-no-repeat bg-contain"
           style={{
-            // backgroundImage: "url('https://i.gifer.com/7gRx.gif')",
-            // backgroundImage: "url('https://i.gifer.com/Ab71.gif')",
-            // backgroundImage: "url('https://i.gifer.com/PYZK.gif')",
             backgroundImage: "url('https://i.gifer.com/XZ5V.gif')",
-            // backgroundImage: "url('https://i.gifer.com/BHFO.gif')",
           }}
         >
           <img

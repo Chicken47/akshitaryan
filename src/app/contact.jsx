@@ -27,7 +27,14 @@ const Contact = () => {
               <input className="bg-[#9e282854] px-5 py-2 rounded-lg ml-5 w-full" />
             </div>
           </div>
-          <div id="red" className="w-[30%] h-full bg-red-600 text-red-600">
+          <div
+            id="red"
+            className="w-[30%] h-full bg-red-600 text-red-600 bg-top bg-no-repeat bg-cover"
+            style={{
+              backgroundImage:
+                "url('https://media.giphy.com/media/3yRHVLXGeodopGpq7l/giphy.gif')",
+            }}
+          >
             .
           </div>
         </div>
