@@ -24,7 +24,7 @@ const Contact = () => {
             </div>
             <div className="flex items-center">
               <span>Where Can I Reach You to Revert </span>
-              <input className="bg-[#9e282854] px-5 py-2 rounded-lg ml-5" />
+              <input className="bg-[#9e282854] px-5 py-2 rounded-lg ml-5 w-full" />
             </div>
           </div>
           <div id="red" className="w-[30%] h-full bg-red-600 text-red-600">

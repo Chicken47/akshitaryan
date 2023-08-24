@@ -1,10 +1,19 @@
 "use client";
 import { Email, GitHub, LinkedIn } from "@mui/icons-material";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/all";
 import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="flex justify-center w-full bg-black">
+    <div className="relative flex justify-center w-full bg-black">
+      {/* <div className="absolute flex flex-col items-center justify-center w-screen h-screen bg-black">
+        <span className="text-[3vw] w-3/5 text-center">
+          Your time is limited, so don't waste it living someone else's life.
+          Don't be trapped by `dogma`, which is living with the results of other
+          people's thinking. - Steve Jobs
+        </span>
+      </div> */}
       <div
         style={{
           backgroundImage: "url('/images/blob.gif')",
@@ -12,7 +21,7 @@ const HomePage = () => {
         className="flex flex-col justify-between w-full min-h-screen text-white bg-center bg-no-repeat bg-contain max-w-[1366px]"
       >
         <div>
-          <div className="flex justify-center w-full text-[10vw] font-extrabold font-raleway uppercase mt-[2vw] mix-blend-difference">
+          <div className="flex justify-center w-full text-[10vw] font-extrabold font-raleway uppercase mt-[2vw] ">
             Akshit Aryan
           </div>
           <div className="flex justify-between w-full px-[5vw] font-poppins text-[4vw] mt-[2vw] text-red-600">

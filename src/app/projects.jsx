@@ -76,7 +76,7 @@ const HomeProjects = () => {
               </Link>
               <Link
                 target="_blank"
-                href={"https://github.com/Chicken47/opi-new-dev"}
+                href={"https://akshitaryan.vercel.app"}
                 className="px-5 py-2 transition-all duration-300 bg-red-600 rounded-full cursor-pointer hover:bg-black"
               >
                 Live Site
