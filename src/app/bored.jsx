@@ -8,7 +8,7 @@ const Bored = () => {
   const findActivity = () => {
     setLoading(true);
     fetch(
-      `http://www.boredapi.com/api/activity?participants=${
+      `https://www.boredapi.com/api/activity?participants=${
         participants ? participants : 1
       }`
     )
