@@ -30,7 +30,7 @@ const HomePage = () => {
           <span className="text-[1.5vw]">about, services, contact</span>
         </div>
         <div>
-          <div className="flex justify-center w-full text-[10vw] font-extrabold font-tilt uppercase mt-[2vw] mix-blend-difference">
+          <div className="flex justify-center w-full text-[10vw] font-extrabold font-poppins uppercase mt-[2vw] mix-blend-difference">
             Akshit Aryan
           </div>
           <div className="flex justify-between w-full px-[5vw] font-abril text-[4vw] mt-[2vw] text-red-600">
