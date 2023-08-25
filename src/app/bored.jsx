@@ -16,6 +16,7 @@ const Bored = () => {
       .then((response) => {
         setLoading(false);
         setBoredDeets(response);
+        console.log(response);
       })
       .catch((err) => {
         setLoading(false);
