@@ -21,7 +21,7 @@ const NasaPotd = () => {
       <span className="font-bold text-[4vw] font-abril text-red-600">
         Nasa Photo of the Day
       </span>
-      <img src={data?.hdurl} className="rounded-lg md:my-10 md:w-1/2" />
+      <img src={data?.url} className="rounded-lg md:my-10 md:w-1/2" />
       <span className="font-abril md:text-[2.5vw] mt-5 text-red-600">
         {data?.title}
       </span>
