@@ -25,7 +25,7 @@ const Quote = () => {
   return (
     <div className="flex justify-center w-full p-10">
       <div
-        className="flex flex-col items-center p-10 bg-center bg-no-repeat bg-cover border border-white rounded-lg decoration-sky-50 md:space-y-10"
+        className="flex flex-col items-center p-10 bg-center bg-no-repeat bg-cover border border-red-500 rounded-lg decoration-sky-50 md:space-y-10"
         style={
           loading
             ? {

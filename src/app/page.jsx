@@ -1,4 +1,5 @@
 import AboutMe from "./about";
+import Bored from "./bored";
 import Contact from "./contact";
 import HomePage from "./home";
 import NasaPotd from "./photoNasa";
@@ -11,6 +12,7 @@ export default function Home() {
       <HomePage />
       <AboutMe />
       <Quote />
+      <Bored />
       <HomeProjects />
       <NasaPotd />
       <Contact />
