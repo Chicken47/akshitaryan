@@ -1,5 +1,6 @@
 "use client";
 import { Email, GitHub, LinkedIn } from "@mui/icons-material";
+import Link from "next/link";
 import React from "react";
 
 const HomePage = () => {
@@ -52,13 +53,22 @@ const HomePage = () => {
             </div>
             <div className="flex w-full space-x-5 justify-evenly">
               <span className="px-3 py-3 transition-all duration-300 border border-white rounded-full cursor-pointer hover:bg-red-700">
-                <Email />
+                <Link target="_blank" href="mailto:akshit.aryan1999@gmail.com">
+                  <Email />
+                </Link>
               </span>
               <span className="px-3 py-3 transition-all duration-300 border border-white rounded-full cursor-pointer hover:bg-red-700">
-                <LinkedIn />
+                <Link
+                  target="_blank"
+                  href="https://www.linkedin.com/in/akshitaryan"
+                >
+                  <LinkedIn />
+                </Link>
               </span>
               <span className="px-3 py-3 transition-all duration-300 border border-white rounded-full cursor-pointer hover:bg-red-700">
-                <GitHub />
+                <Link target="_blank" href="https://github.com/Chicken47">
+                  <GitHub />
+                </Link>
               </span>
             </div>
           </div>
